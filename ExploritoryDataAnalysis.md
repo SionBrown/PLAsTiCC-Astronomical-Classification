@@ -28,7 +28,7 @@ The above gives reason to believe that some objects are periodic and the time se
 
 The figure above has a better representation of the light curve of object 615 which is class 92. 
 
-Further exploration using the LombScargleMultiband models revealed that class 92 is likely to be the target class of regular variable stars after reading an [article](https://www.ifa.hawaii.edu/users/mendez/ASTRO110LAB11/variables.html) by the [Institute of Astronomy at the University of Hawaii](http://ifa.hawaii.edu/) that states how variable stars are periodic and their light curves can be ' "folded" by the period of variability of the star. For example, if the star is known to repeat its variability every 7.0 days, then the horizontal time axis wraps around to the origin again every 7.0 days'. Below is an image from the article representing a regular variable star. 
+Further exploration using the LombScargleMultiband models revealed that class 92 is likely to be the target class of regular variable stars after reading an [article](https://www.ifa.hawaii.edu/users/mendez/ASTRO110LAB11/variables.html) by the [Institute of Astronomy at the University of Hawaii](http://ifa.hawaii.edu/) that states how variable stars are periodic and their light curves can be *' "folded" by the period of variability of the star. For example, if the star is known to repeat its variability every 7.0 days, then the horizontal time axis wraps around to the origin again every 7.0 days'*. Below is an image from the article representing a regular variable star. 
 
 ![Frequency distribution of target classes for galactic and extragalactic objects \label{img1}](https://www.ifa.hawaii.edu/users/mendez/ASTRO110LAB11/sampleceph6.gif)
 
