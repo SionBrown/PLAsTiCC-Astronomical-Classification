@@ -8,7 +8,9 @@ According to the [data note](https://www.kaggle.com/c/PLAsTiCC-2018/data) of the
 
 ![Frequency distribution of target classes for galactic and extragalactic objects \label{img1}](https://github.com/SionBrown/PLAsTiCC-Astronomical-Classification/blob/master/galacticvsextragalactic.png?raw=true)
 
-Figure 1 shows that there are no target classes that contain both galactic and extragalactic objects, thus, diﬀerent models can be trained and optimised to classify objects from galactic or extra-galactic sets along with diﬀerent features.
+Click here for the [code](https://github.com/SionBrown/PLAsTiCC-Astronomical-Classification/blob/master/dataAnalysisGalacticVsExtragalactic.py) for this portion of the data analysis.
+
+The figure above shows that there are no target classes that contain both galactic and extragalactic objects, thus, diﬀerent models can be trained and optimised to classify objects from galactic or extra-galactic sets along with diﬀerent features.
 
 ## Time Series Analysis
 
