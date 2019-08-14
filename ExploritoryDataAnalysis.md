@@ -14,7 +14,7 @@ The figure above shows that there are no target classes that contain both galact
 
 ## Time Series Analysis
 
-To explore the ﬂux time series ﬁgure 2 shows a scatter plot of the observed ﬂux values for each passband at the the time they were observed.
+To explore the ﬂux time series ﬁgure 2 shows a scatter plot of the observed ﬂux values for each passband at the time they were observed.
 
 ![Frequency distribution of target classes for galactic and extragalactic objects \label{img1}](https://github.com/SionBrown/PLAsTiCC-Astronomical-Classification/blob/master/scatterPlot.PNG?raw=true)
 
@@ -22,7 +22,7 @@ The results shown above give good reason to believe that the ﬂux series in the
 
 ![Frequency distribution of target classes for galactic and extragalactic objects \label{img1}](https://github.com/SionBrown/PLAsTiCC-Astronomical-Classification/blob/master/fingerprintLightCurve.PNG?raw=true)
 
-The above gives reason to believe that some objects are periodic and the time series in a phase space might show the periodicity of objects. To find the periodicity of objects with multi-passbands the seriec could be fit to a [Lomb Scargle Multiband model](https://www.astroml.org/gatspy/periodic/lombscarglemultiband.html) such that the best period can be found to view the time series in a phase space. To covert from modified Julian date to phase space the period of the obecjts found can be used as expressed in the following formula phase ≡ ( mjd / period)mod(1). The results of using the gatspy Python library is shown in the Multiband Lomb-Scargle Periodogram represented below.
+The above gives reason to believe that some objects are periodic and the time series in a phase space might show the periodicity of objects. To find the periodicity of objects with multi-passbands the series could be fit to a [Lomb Scargle Multiband model](https://www.astroml.org/gatspy/periodic/lombscarglemultiband.html) such that the best period can be found to view the time series in a phase space. To covert from modified Julian date to phase space the period of the objects found can be used as expressed in the following formula phase ≡ ( mjd / period)mod(1). The results of using the gatspy Python library is shown in the Multiband Lomb-Scargle Periodogram represented below.
 
 ![Frequency distribution of target classes for galactic and extragalactic objects \label{img1}](https://github.com/SionBrown/PLAsTiCC-Astronomical-Classification/blob/master/periodicityOf615.PNG?raw=true)
 
@@ -32,4 +32,4 @@ Further exploration using the LombScargleMultiband models revealed that class 92
 
 ![Frequency distribution of target classes for galactic and extragalactic objects \label{img1}](https://www.ifa.hawaii.edu/users/mendez/ASTRO110LAB11/sampleceph6.gif)
 
-The image above looks very similar to the periodogram of object 615 due to the light curves apearing sinusodial. With further data analysis objects of class 92 typically had periods of less than one day and usually had high period scores (model.best_period). These features would be able to be utilised for feature engineering.
+The image above looks very similar to the periodogram of object 615 due to the light curves appearing sinusoidal. With further data analysis objects of class 92 typically had periods of less than one day and usually had high period scores (model.best_period). These features would be able to be utilised for feature engineering.
