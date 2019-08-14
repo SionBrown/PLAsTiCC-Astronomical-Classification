@@ -3,7 +3,7 @@ Kaggle Competition
 
 ## Getting Started
 
-Please refer to the exploratory data analysis document before delving into the feature engineering document for an insight as to how significant features were engineered to improve classification of astronomical objects. 
+Please refer to the [exploratory data analysis document](https://github.com/SionBrown/PLAsTiCC-Astronomical-Classification/blob/master/ExploritoryDataAnalysis.md) before delving into the feature engineering document for an insight as to how significant features were engineered to improve classification of astronomical objects. 
 
 ### Prerequisites
 
