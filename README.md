@@ -1,5 +1,5 @@
 # PLAsTiCC-Astronomical-Classification
- The nature of the PLAsTiCC Astronomical Classification time series is complex because there are three time series (flux, flux err, detected) per passband (u, g, r, i, z y) per object. Exploratory data analysis revealed that the data set could be split into galactic and extra-galactic objects thus enabling different machine learning models to be trained and applied. This repository provides an exploration of the data and some feature engineering approaches to assimilate relationships between features with in the data and developing faetures to help classify each target class. There are 14 target classes and one extra target class that is for anomaly detection of newly discovered astronomical objects. 
+ The nature of the PLAsTiCC Astronomical Classification time series is complex because there are three time series (flux, flux err, detected) per passband (u, g, r, i, z y) per object. Exploratory data analysis revealed that the data set could be split into galactic and extra-galactic objects thus enabling different machine learning models to be trained and applied. This repository provides an exploration of the data and some feature engineering approaches to assimilate relationships between features within the data and developing features to help classify each target class. There are 14 target classes with training data and one extra target class that is for anomaly detection of newly discovered astronomical objects. 
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ Below is a list of prerequisites to install;
 
 The data for this Kaggle challenge can be downloaded [here](https://www.kaggle.com/c/PLAsTiCC-2018/data).
 
-You will need to have a version of Python installed so please visit [Python.org](https://www.python.org/) to download the Python sourcecode and installers. It is recommended to download the latest version but for your information Python 3.6.6 was used when writing the code for the repository.
+You will need to have a version of Python installed so please visit [Python.org](https://www.python.org/) to download the Python source code and installers. It is recommended to download the latest version but for your information Python 3.6.6 was used when writing the code for the repository.
 
 For data visualisation please install the following Python packages;
 
